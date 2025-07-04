@@ -16,4 +16,12 @@
     //   "bucket_name": "cache",
     // },
   ],
+  "env": {
+    "preview": {
+      "name": "nextjs-workers-deployment-preview",
+    },
+    "production": {
+      "name": "nextjs-workers-deployment-production",
+    },
+  },
 }
